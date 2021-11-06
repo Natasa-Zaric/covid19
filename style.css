@@ -48,22 +48,21 @@ height: auto;
 .nav-link:hover {
 	color:white;
 }
-.h1{
+h1{
 	font-size:30px;
 	color:rgb(34,34,34);
 	line-height:1.25;
 	text-align:center;
 	margin: 0 50px;
 }
-.h2{
+h2{
 	color: white;
 	font-weight: bold;
 	text-align: center;
 }
-.h3{
+h3{
 	color: black;
-	text-align: center;
-	
+	text-align: center;	
 }
 .first-part{	
 	margin-top:5vw;

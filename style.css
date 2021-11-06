@@ -48,12 +48,22 @@ height: auto;
 .nav-link:hover {
 	color:white;
 }
-.text-h1{
+.h1{
 	font-size:30px;
 	color:rgb(34,34,34);
 	line-height:1.25;
 	text-align:center;
 	margin: 0 50px;
+}
+.h2{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.h3{
+	color: black;
+	text-align: center;
+	
 }
 .first-part{	
 	margin-top:5vw;
@@ -162,10 +172,6 @@ span{
 	height: 600px;
 	margin: 10px 70px;
 }
-.tekst{
-	color: black;
-	text-align: center;
-}
 .tekst2{
 	color: black;
 }
@@ -185,11 +191,6 @@ span{
 	font-size: 30px;
 	background-color: rgba(255,255,255,0.5);
 	margin: 20px 0;
-}
-.text-h2{
-	color: white;
-	font-weight: bold;
-	text-align: center;
 }
 .izvor{
 	text-align: center;

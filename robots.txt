@@ -1,0 +1,6 @@
+http://natasa-zaric.github.io/covid19/sitemap.xml
+
+User-agent:*
+allow: /
+Disallow: /wp-admin/
+

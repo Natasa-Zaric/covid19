@@ -1,22 +1,8 @@
-html,body{
-	margin: 0;
-	padding: 0;
-	overflow: auto;
-	scroll-behavior: smooth;
+.a-link{
+	color: white;
+	font-size: 15px;
+	line-height: 2.278;
 }
-.jumbotron-header {
-	background: url("m.jpg")center fixed;
-	background-size: cover;
-	height: auto;
-	border-radius: 0;
-	} 
-.navFix {
-	position:fixed;
-	top:0;
-	background:transparent;
-	width:100%;
-	height:50px;
-} 
 .black {
 	position:fixed;
 	top:0;
@@ -25,82 +11,6 @@ html,body{
 	height:50px;
 	opacity: 0,5;
 } 
-.navFix{
-background-color: black;
-height: auto;
-} 
-.navbar-hamburger {
-	font-size:25px;
-	font-weight:600;
-	color:white;
-	text-transform:uppercase;
-	padding-left:10px;
-}
-.navbar-hamburger:hover{
-	text-decoration:none;
-	color:white;
-} 
-.a-link{
-	color: white;
-	font-size: 15px;
-	line-height: 2.278;
-}
-.nav-link:hover {
-	color:white;
-}
-h1{
-	font-size:30px;
-	color:rgb(34,34,34);
-	line-height:1.25;
-	text-align:center;
-	margin: 0 50px;
-}
-h2{
-	color: white;
-	font-weight: bold;
-	text-align: center;
-}
-h3{
-	color: black;
-	text-align: center;	
-}
-.first-part{	
-	margin-top:5vw;
-	margin-bottom:10vw;
-	margin-left:3vw;
-	margin-right:3vw
-	background:white;
-	background-size: 100% 100%;
-	padding: 20px;
-}
-.text-opis{
-    font-size:18px;
-	color:black;
-	line-height:1.333;
-	text-align:justify;
-	max-width:555px;
-	padding: 20px;
-	margin-right: 20px;
-}
-.home{
-    background:rgba(255,255,255,0.7);
-	border-radius: 10px;
-	height: auto;
-	width: 100%;
-}
-.k1{
-	width: 200px;
-	height: 200px;
-	position: right;
-	margin:100px 90px;
-	border-radius: 10px;
-	background-image: url("mi.jpg");
-	background-repeat: no-repeat;
-}
-span{
-	color: red;
-	font-weight: bold;
-}
 .button {
 	color: black;
 	border: 2px solid grey;
@@ -124,34 +34,6 @@ span{
 	margin: 70px 0;
 	box-shadow: 0px 3px 10px #e6f2ff;
 }
-#text-1{
-	color: black;
-	font-weight: bold;
-	text-align: center;
-}
-.second-part{
-	background: rgba(255,255,255,0.7);
-	 border-radius:10px;
-	 padding:30px;
-     text-align:justify;
-     line-height: 25px;
-}
-.linija1{
-	height: 2px;
-	background-color: red;
-}
-.third-part{
-	 background:#ff8080;
-	 padding:30px;
-     line-height: 20px;
-     margin:50px 0px;
-     border-radius: 10px;
-}
-.linija{
-	background-color: red;
-	height: 3px;
-	width: 70%;
-}
 .blok1{
 	padding:30px;
 	background:white;
@@ -159,68 +41,9 @@ span{
 	line-height: 25px;
 	margin: 10px 0px;
 }
-.fourth-part{
-    padding:30px;
-	background:white;
-	border-radius:10px;
-	line-height: 25px;
-	margin:50px 0px;
-	text-align: justify;
-	background-size: 100% 100%;
-}
-.k2{
-	width: 600px;
-	height: 600px;
-	margin: 10px 70px;
-	background-image: url("ruke.png");
-	background-repeat: no-repeat;
-}
-.tekst2{
-	color: black;
-}
-.fifth-part{
-	text-align: center;
-}
-.kolone{
-	color: black;
-	font-weight: bold;
-	font-size: 20px;
-	background-color: rgba(255,255,255,0.8);
-	margin: 20px 0;
-}
-.kolone2{
-	color: red;
-	font-weight: bold;
-	font-size: 30px;
-	background-color: rgba(255,255,255,0.5);
-	margin: 20px 0;
-}
-.izvor{
-	text-align: center;
-	margin: 40px 0;
-	color: white;
-}
-.kolone3{
-	color: black;
-	font-weight: bold;
-	font-size: 20px;
-	background-color: rgba(255,255,255,0.8);
-	margin: 20px 0;
-}
-.kolone4{
-	color: red;
-	font-weight: bold;
-	font-size: 30px;
-	background-color: rgba(255,255,255,0.5);
-	margin: 20px 0;
-}
 .broj{
 	width: 20px;
 	height: 20px;
-}
-#linija2{
-	color: white;
-	height: 2px;
 }
 .dno{
 	background: black;
@@ -240,4 +63,186 @@ span{
 	padding: 30px;
 	font-weight: bold;
 }
+.first-part{	
+	margin-top:5vw;
+	margin-bottom:10vw;
+	margin-left:3vw;
+	margin-right:3vw
+	background:white;
+	background-size: 100% 100%;
+	padding: 20px;
+}
+.fourth-part{
+    padding:30px;
+	background:white;
+	border-radius:10px;
+	line-height: 25px;
+	margin:50px 0px;
+	text-align: justify;
+	background-size: 100% 100%;
+}
+.fifth-part{
+	text-align: center;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	scroll-behavior: smooth;
+}
+h1{
+	font-size:30px;
+	color:rgb(34,34,34);
+	line-height:1.25;
+	text-align:center;
+	margin: 0 50px;
+}
+h2{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+h3{
+	color: black;
+	text-align: center;	
+}
+.home{
+    background:rgba(255,255,255,0.7);
+	border-radius: 10px;
+	height: auto;
+	width: 100%;
+}
+.izvor{
+	text-align: center;
+	margin: 40px 0;
+	color: white;
+}
+.jumbotron-header {
+	background: url("m.jpg")center fixed;
+	background-size: cover;
+	height: auto;
+	border-radius: 0;
+	} 
+.k1{
+	width: 200px;
+	height: 200px;
+	position: right;
+	margin:100px 90px;
+	border-radius: 10px;
+	background-image: url("mi.jpg");
+	background-repeat: no-repeat;
+}
+.k2{
+	width: 600px;
+	height: 600px;
+	margin: 10px 70px;
+	background-image: url("ruke.png");
+	background-repeat: no-repeat;
+}
+.kolone{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgba(255,255,255,0.8);
+	margin: 20px 0;
+}
+.kolone2{
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	background-color: rgba(255,255,255,0.5);
+	margin: 20px 0;
+}
+
+.kolone3{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgba(255,255,255,0.8);
+	margin: 20px 0;
+}
+.kolone4{
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	background-color: rgba(255,255,255,0.5);
+	margin: 20px 0;
+}
+.linija{
+	background-color: red;
+	height: 3px;
+	width: 70%;
+}
+.linija1{
+	height: 2px;
+	background-color: red;
+}
+
+#linija2{
+	color: white;
+	height: 2px;
+}
+.navFix {
+	position:fixed;
+	top:0;
+	background:transparent;
+	width:100%;
+	height:50px;
+} 
+
+.navFix{
+        background-color: black;
+        height: auto;
+} 
+.navbar-hamburger {
+	font-size:25px;
+	font-weight:600;
+	color:white;
+	text-transform:uppercase;
+	padding-left:10px;
+}
+.navbar-hamburger:hover{
+	text-decoration:none;
+	color:white;
+} 
+
+.nav-link:hover {
+	color:white;
+}
+span{
+	color: red;
+	font-weight: bold;
+}
+.second-part{
+	background: rgba(255,255,255,0.7);
+	 border-radius:10px;
+	 padding:30px;
+     text-align:justify;
+     line-height: 25px;
+}
+.text-opis{
+    font-size:18px;
+	color:black;
+	line-height:1.333;
+	text-align:justify;
+	max-width:555px;
+	padding: 20px;
+	margin-right: 20px;
+}
+#text-1{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+.third-part{
+	 background:#ff8080;
+	 padding:30px;
+     line-height: 20px;
+     margin:50px 0px;
+     border-radius: 10px;
+}
+.tekst2{
+	color: black;
+}
+
 

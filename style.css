@@ -11,22 +11,6 @@
 	height:50px;
 	opacity: 0,5;
 } 
-.button {
-	color: black;
-	border: 2px solid grey;
-	border-radius: 0;
-	font-weight: bold;
-	font-size: 15px;
-	text-decoration: none;
-  } 
-.button:hover {
-	color: blue;
-	background-color: lightblue;
-	text-decoration: none;
-  } 
-.btn {
-	text-decoration:none;
-}
 #blok{
 	background-color: white;
 	height: auto;
@@ -45,6 +29,22 @@
 	width: 20px;
 	height: 20px;
 }
+.btn {
+	text-decoration:none;
+}
+.button {
+	color: black;
+	border: 2px solid grey;
+	border-radius: 0;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+} 
+.button:hover {
+	color: blue;
+	background-color: lightblue;
+	text-decoration: none;
+} 
 .dno{
 	background: black;
 	height: auto;
@@ -72,6 +72,9 @@
 	background-size: 100% 100%;
 	padding: 20px;
 }
+.fifth-part{
+	text-align: center;
+}
 .fourth-part{
     padding:30px;
 	background:white;
@@ -81,8 +84,11 @@
 	text-align: justify;
 	background-size: 100% 100%;
 }
-.fifth-part{
-	text-align: center;
+.home{
+    background:rgba(255,255,255,0.7);
+	border-radius: 10px;
+	height: auto;
+	width: 100%;
 }
 html,body{
 	margin: 0;
@@ -106,12 +112,7 @@ h3{
 	color: black;
 	text-align: center;	
 }
-.home{
-    background:rgba(255,255,255,0.7);
-	border-radius: 10px;
-	height: auto;
-	width: 100%;
-}
+
 .izvor{
 	text-align: center;
 	margin: 40px 0;
@@ -209,16 +210,16 @@ h3{
 .nav-link:hover {
 	color:white;
 }
-span{
-	color: red;
-	font-weight: bold;
-}
 .second-part{
 	background: rgba(255,255,255,0.7);
 	 border-radius:10px;
 	 padding:30px;
      text-align:justify;
      line-height: 25px;
+}
+span{
+	color: red;
+	font-weight: bold;
 }
 .text-opis{
     font-size:18px;
@@ -234,6 +235,9 @@ span{
 	font-weight: bold;
 	text-align: center;
 }
+.tekst2{
+	color: black;
+}
 .third-part{
 	 background:#ff8080;
 	 padding:30px;
@@ -241,8 +245,6 @@ span{
      margin:50px 0px;
      border-radius: 10px;
 }
-.tekst2{
-	color: black;
-}
+
 
 

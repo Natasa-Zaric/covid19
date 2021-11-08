@@ -92,8 +92,10 @@ h3{
 	width: 200px;
 	height: 200px;
 	position: right;
-	margin:100px 70px;
+	margin:100px 90px;
 	border-radius: 10px;
+	background-image: url("mi.jpg");
+	background-repeat: no-repeat;
 }
 span{
 	color: red;
@@ -170,6 +172,8 @@ span{
 	width: 600px;
 	height: 600px;
 	margin: 10px 70px;
+	background-image: url("ruke.png");
+	background-repeat: no-repeat;
 }
 .tekst2{
 	color: black;

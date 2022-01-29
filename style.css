@@ -119,7 +119,7 @@ h3{
 .jumbotron-header {
 	background: url("m.jpg")center fixed;
 	background-size: cover;
-	height: auto;
+	height: 100%;
 	border-radius: 0;
 	margin:0;
 	} 

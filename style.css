@@ -201,7 +201,6 @@ h3{
 	text-decoration:none;
 	color:white;
 } 
-
 .nav-link:hover {
 	color:white;
 }
@@ -240,6 +239,11 @@ span{
      margin:50px 0px;
      border-radius: 10px;
 }
-
+@media and screen (max-width 480px){
+	.k2{
+		display:none;
+	}
+ 
+}
 
 

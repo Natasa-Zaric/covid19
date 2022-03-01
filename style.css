@@ -74,7 +74,7 @@
 	text-align: center;
 }
 .fourth-part{
-    padding:30px;
+        padding:30px;
 	background:white;
 	border-radius:10px;
 	line-height: 25px;
@@ -117,7 +117,7 @@ h3{
 	color: white;
 }
 .jumbotron-header {
-	background: url("m.jpg")center fixed;
+	background: url("images/m.jpg")center fixed;
 	background-size: cover;
 	height: 100%;
 	border-radius: 0;
